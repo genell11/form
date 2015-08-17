@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Catalogue Website </title>
+	<link href = "css/catalogue.css" rel = "stylesheet"/>
+	<meta charset="utf-8">
+ 	 <script src="jquery-1.11.3.min.js"></script>
+  	<script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+	
+
+</head>
+
+<body>
+	
+		
+	<div id="header">
+		
+	<h2> MyStore..</h2>
+
+	<form action="" method="">
+	
+				
+				 <b> Search For A Product </b>
+
+				<input type="search" name="productsearch" placeholder="Search for a Product" size="20px">
+				<input type="submit" name="submit" value="Search">
+				
+	</form>
+
+
+	</div>
+
+	
+	<div class="login_page">
+
+	<h2>Login Form</h2>
+	-----------------------------------
+	<form>
+
+		<table>
+			<tr>
+				<td colspan="2" align="center"><img src = "images/adminicon.png" height="150" width="180"><br> </td>
+
+			</tr>
+			<tr>
+				<td>Username: </td> <td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>Password: </td> <td><input type="password" name="username"></td>
+			</tr>
+			<tr>
+			<td colspan="2" align="right"><input value = "login" type = "submit"> </td>
+			</tr>
+
+		</table>
+		</form>
+	</div>
+
+
+
+
+	<div class="buying_form">
+
+	<h2>Order Form</h2>
+	----------------------------------------------------------
+	<form>
+		<table>
+			<tr>
+				<td>Full Name (*):</td> <td> <input type="text" name="name"></td>
+				<td>Street Address (*)</td> <td><input type="text" name="address"></td>
+			</tr>
+
+			<tr>
+				<td>Town (*):</td> <td> <input type="text" name="town"></td>
+				<td>City (*)</td> <td><input type="text" name="city"></td>
+			</tr>
+
+			<tr>
+				<td>Country (*):</td> 
+				<td> <select>
+  						<option value="volvo">United States</option>
+  						<option value="saab">Philippines</option>
+  						<option value="opel">China</option>
+  						<option value="audi">Korea</option>
+					</select> </td>
+				<td>Post/Zip Code (*): </td> <td><input type="text" name="zipcode"></td>
+			</tr>
+			<tr>
+				<td>Item 1:</td> <td> <select placeholder="Select Please">
+  						<option value="volvo">tshirt</option>
+  						<option value="saab">shorts</option>
+  						<option value="opel">socks</option>
+  						<option value="audi">brief</option>
+					</select></td>
+				<td>Qty: </td> <td><input type="text" name="qty"></td>
+			</tr>
+			<tr>
+				<td>Item 1:</td> <td> <select placeholder="Select Please">
+  						<option value="volvo">tshirt</option>
+  						<option value="saab">shorts</option>
+  						<option value="opel">socks</option>
+  						<option value="audi">brief</option>
+					</select></td>
+				<td>Qty: </td> <td><input type="text" name="qty"></td>
+			</tr>
+			<tr>
+				<td>Item 1:</td> <td> <select placeholder="Select Please">
+  						<option value="volvo">tshirt</option>
+  						<option value="saab">shorts</option>
+  						<option value="opel">socks</option>
+  						<option value="audi">brief</option>
+					</select></td>
+				<td>Qty: </td> <td><input type="text" name="qty"></td>
+			</tr>
+			<tr>
+				<td>Further Instructions:</td> <td colspan="8"><textarea class="input" name="message" cols="65" rows="3"> You can leave final instructions about the delivery.</textarea></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="right"> <input type="submit" name="submit" value="Place Order">  </td>
+			</tr>
+
+		</table>
+	</form>
+
+
+	<div id="studentInformation">
+
+	 <h2> Student Information </h2>
+	 ------------------------------------------
+
+		<form>
+			<table>
+
+			<tr>
+				<th>Firstname: </th> <td><input type="text" name="fname"> </td>
+				<th>Middle Initial: </th> <td><input type="text" name="fname"> </td>
+				<th>Lastname: </th> <td><input type="text" name="fname"> </td>
+			</tr>
+			<tr>
+				<th>Birthday: </th> <td><input type="date" name="date"> </td>
+				<th>Age: </th> <td><input type="text" name="age"> </td>
+				<th>Sex: </th> <td><input type="radio" name="sex" value="male" checked> Male <br>
+					<input type="radio" name="sex" value="female"> Female </td>
+				<th>
+			</tr>
+			<tr>
+				<th>Parents Income: </th> <td><input type="number" min="1000" max="1000000"> </td>
+				<th>Favorite Superhero: </th> <td><input type="checkbox" name="superhero1" value="Spiderman"> Spiderman
+					<input type="checkbox" name="superhero2" value="Deadpool"> Deadpool</td>
+				<th>Cell Phone No: </th> <td><input type="text" name="number"></td>
+				<th>
+			</tr>
+			<tr>
+				<th>Select Course: </th> <td><select> 
+				<option value="BS Information Systems">BS Information Systems </option>
+				<option value="BS Information Technology"> BS Information Technology </option>
+				<option value="BS Computer Science"> BS Computer Science </option> 
+				<option value="Electrical Engineering">Electrical Engineering </option> 
+				<option value="Civil Engineering">Civil Engineering</option>  </select>  
+
+				</td>
+				
+			</tr>
+			
+			</table>
+		</form>
+
+	</div>
+
+
+
+	</div>
+
+	
+
+
+</body>
+
+
+</html>
